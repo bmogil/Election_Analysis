@@ -3,11 +3,11 @@
 ## Overview of Election Audit 
 * The purpose of this election audit analysis, in my opinion, is twofold: 
 1. To teach us how to create a Python script that would deliver the following information, from      raw voting data, when the script is run:
-  * Total number of votes cast
-  * A complete list of candidates who received votes 
-  * Total number of votes each candidate received
-  * Percentage of votes each candidate won
-  * The winner of the election based on popular vote
+   * Total number of votes cast
+   * A complete list of candidates who received votes 
+   * Total number of votes each candidate received
+   * Percentage of votes each candidate won
+   * The winner of the election based on popular vote
 2. To teach us how to incorporate file processing into our Python scripts. 
 ---
 ## Election-Audit Results
