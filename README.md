@@ -2,13 +2,13 @@
 ---
 ## Overview of Election Audit 
 * The purpose of this election audit analysis, in my opinion, is twofold: 
-1. To teach us how to create a Python script that would deliver the following information, from raw voting data, when the script is run:
+* 1. To teach us how to create a Python script that would deliver the following information, from      raw voting data, when the script is run:
   * Total number of votes cast
   * A complete list of candidates who received votes 
   * Total number of votes each candidate received
   * Percentage of votes each candidate won
   * The winner of the election based on popular vote
-2. To teach us how to incorporate file processing into our Python scripts. 
+* 2. To teach us how to incorporate file processing into our Python scripts. 
 ---
 ## Election-Audit Results
 * 369,711 votes were cast in this congressional election, as the following image of my VS Code terminal displays: 
@@ -49,11 +49,11 @@
 ---
 ## Election-Audit Summary
 ### Business Proposal to Election Commission
-* This script can be modified in a vast number of ways for it to be the perfect script for any election. For example:
-  1. This script can be modified to be used for a Federal election: 
-    * Lets say there was a country that assigned each county a certain amount of 'electoral points     based on the percentage of the total population that a certain county makes up. (as many           countries do). For example, lets say 'Broward' county accounts for 65% of the population of a     country. Further, this imaginary country's electoral system has decided to assign 1 electoral     point to each county for every 5% of the population that they house (assuming no county holds     less than 5%). Thereby, Broward county would receive 13 electoral points, that would be           assigned to its winning party. This script could be modified to account for this variable         adding another 'if statement' that would assign Broward its proportionally correct amount of       electoral points (based on its percentage of the country's population) and then assign those       points to the winning party. Lastly, the modified script would be able to sum the                 electoral points to output which party has won the Federal election and provide a breakdown by     county.
+* This script can be modified in a vast number of ways to make it the perfect script for any election. For example:
+  * 1. This script can be modified to be used for a Federal election: 
+   * Lets say there was a country that assigned each county a certain amount of 'electoral points     based on the percentage of the total population that a certain county makes up. (as many           countries do). For example, lets say 'Broward' county accounts for 65% of the population of a     country. Further, this imaginary country's electoral system has decided to assign 1 electoral     point to each county for every 5% of the population that they house (assuming no county holds     less than 5%). Thereby, Broward county would receive 13 electoral points, that would be           assigned to its winning party. This script could be modified to account for this variable         adding another 'if statement' that would assign Broward its proportionally correct amount of       electoral points (based on its percentage of the country's population) and then assign those       points to the winning party. Lastly, the modified script would be able to sum the                 electoral points to output which party has won the Federal election and provide a breakdown by     county.
   
-  2. Voting Demographic Breakdown:
-    * Further, lets say you wanted the script to output a voting demographic breakdown of the         election. This script can be modified to do this, given all the demographic data of each voter     was input by them and added to our raw data. If this were true, this script would be able to       output any social/economical (etc.) demographic breakdown using same stastical summarization       methods that are already present in this script.
+  * 2. Voting Demographic Breakdown:
+   * Further, lets say you wanted the script to output a voting demographic breakdown of the         election. This script can be modified to do this, given all the demographic data of each voter     was input by them and added to our raw data. If this were true, this script would be able to       output any social/economical (etc.) demographic breakdown using same stastical summarization       methods that are already present in this script.
 
     
