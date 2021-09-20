@@ -43,6 +43,7 @@
     Percentage of Total Vote Received: 3.1%
   
   * Moreover, the following image of my VS Code terminal displays the above statistics:
+    
     ![](images/candidate_breakdown.png)
     
 * As shown above, Diana DeGette won the election with a whopping 272,892 total votes, accounting for an even more impressive 73.8% of the total votes.
