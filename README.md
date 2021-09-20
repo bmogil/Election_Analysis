@@ -3,11 +3,11 @@
 ## Overview of Election Audit 
 * The purpose of this election audit analysis, in my opinion, is twofold: 
 1. To teach us how to create a Python script that would deliver the following information, from      raw voting data, when the script is run:
-  * Total number of votes cast
-  * A complete list of candidates who received votes 
-  * Total number of votes each candidate received
-  * Percentage of votes each candidate won
-  * The winner of the election based on popular vote
+   * Total number of votes cast
+   * A complete list of candidates who received votes 
+   * Total number of votes each candidate received
+   * Percentage of votes each candidate won
+   * The winner of the election based on popular vote
 2. To teach us how to incorporate file processing into our Python scripts. 
 ---
 ## Election-Audit Results
@@ -51,7 +51,7 @@
 ### Business Proposal to Election Commission
 * This script can be modified in a vast number of ways to make it the perfect script for any election. For example:
   #### 1. This script can be modified to be used for a Federal election: 
-   * Lets say there was a country that assigned each county a certain amount of 'electoral points     based on the percentage of the total population that a certain county makes up. (as many           countries do). For example, lets say 'Broward' county accounts for 65% of the population of a     country. Further, this imaginary country's electoral system has decided to assign 1 electoral     point to each county for every 5% of the population that they house (assuming no county holds     less than 5%). Thereby, Broward county would receive 13 electoral points, that would be           assigned to its winning party. This script could be modified to account for this variable         adding another 'if statement' that would assign Broward its proportionally correct amount of       electoral points (based on its percentage of the country's population) and then assign those       points to the winning party. Lastly, the modified script would be able to sum the                 electoral points to output which party has won the Federal election and provide a breakdown by     county.
+   * Lets say there was a country that assigned each county a certain amount of electoral points     based on the percentage of the total population that a certain county makes up (as many           countries do). For example, lets say 'Broward' county accounts for 65% of the population of a     country. Further, this imaginary country's electoral system has decided to assign 1 electoral     point to each county for every 5% of the population that they house (assuming no county holds     less than 5%). Thereby, Broward county would receive 13 electoral points, that would be           assigned to its winning party. This script could be modified to account for this variable         adding another 'if statement' that would assign Broward its proportionally correct amount of       electoral points (based on its percentage of the country's population) and then assign those       points to the winning party. Lastly, the modified script would be able to sum the                 electoral points to output which party has won the Federal election and provide a breakdown by     county.
   
   
   #### 2. Voting Demographic Breakdown:
