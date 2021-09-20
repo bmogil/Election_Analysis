@@ -12,6 +12,7 @@
 ---
 ## Election-Audit Results
 * 369,711 votes were cast in this congressional election, as the following image of my VS Code terminal displays: 
+
 ![](images/total_votes.png)
 * A breakdown of the number of votes and the percentage of total votes for each county in the precinct is as follows:
   * County: Jefferson
@@ -27,6 +28,7 @@
     Percentage of Total Vote: 6.7%
     
   * Further, the following image of my 'txt' file output displays the above statistics:
+    
     ![](images/county_vote_breakdown.png)
 * As displayed above, Denver had the largest number of votes out of all the counties. 
 * A breakdown of the number of votes and the percentage of total votes that each candidate received can be seen below:
