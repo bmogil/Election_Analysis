@@ -1,14 +1,14 @@
 # Election_Analysis
 ---
 ## Overview of Election Audit 
-* The purpose of this election audit analysis, in my opinion, is twofold: 
-1. To teach us how to create a Python script that would deliver the following information, from      raw voting data, when the script is run:
+* The purpose of this election audit analysis is twofold: 
+1. To create a Python script that would deliver the following information (from raw voting data) when the script is run:
    * Total number of votes cast
    * A complete list of candidates who received votes 
    * Total number of votes each candidate received
    * Percentage of votes each candidate won
    * The winner of the election based on popular vote
-2. To teach us how to incorporate file processing into our Python scripts. 
+2. To practice incorporating file processing into my Python scripts. 
 ---
 ## Election-Audit Results
 * 369,711 votes were cast in this congressional election, as the following image of my VS Code terminal displays: 
